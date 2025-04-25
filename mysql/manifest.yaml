@@ -38,6 +38,7 @@ spec:
     app: mysql
     tier: database
     project: expense
+    environment: dev
   ports:
   - name: mysql-port
     protocol: TCP
